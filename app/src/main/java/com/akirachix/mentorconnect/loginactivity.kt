@@ -26,7 +26,7 @@ class loginactivity : AppCompatActivity() {
         binding = ActivityLoginactivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.sign.setOnClickListener {
-            val intent = Intent(this, loginactivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
         binding.button2.setOnClickListener {
